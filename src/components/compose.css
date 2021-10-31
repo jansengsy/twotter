@@ -1,0 +1,33 @@
+.tweet-compose-container {
+  border-style: solid;
+  border-width: 1px;
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  padding: 1%;
+  text-align: left;
+}
+
+.tweet-compose-text {
+  font-family: 'Trebuchet MS';
+  font-size: large;
+  width: 95%;
+  padding-top: 2px;
+  padding-left: 1%;
+  border: none;
+}
+
+.tweet-compose-submit-container {
+  text-align: right;
+  padding: 1% 1% 0%;
+}
+
+.tweet-compose-submit {
+  font-family: 'Trebuchet MS';
+  font-size: medium;
+}
+
+.user-icon {
+  height: 4%;
+  width: 4%;
+}
