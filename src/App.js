@@ -2,11 +2,15 @@ import './App.css';
 import Compose from './components/Compose';
 import Feed from './components/Feed';
 
+import TweetContextProvider from './context/TweetContextProvider';
+
 function App() {
   return (
     <div className='App'>
-      <Compose />
-      <Feed />
+      <TweetContextProvider>
+        <Compose />
+        <Feed />
+      </TweetContextProvider>
     </div>
   );
 }
